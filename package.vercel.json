@@ -2,8 +2,8 @@
   "name": "gemini-chat",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "build": "vite build"
+  "build": "vite build",
+"build:vercel": "vite build"
   },
   "dependencies": {
     "@google/genai": "^1.12.0"
