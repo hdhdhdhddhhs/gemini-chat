@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "npm run build:vercel || vite build",
+  "buildCommand": "npm install && vite build",
   "outputDirectory": "client/dist",
+  "installCommand": "npm install",
   "functions": {
     "api/**/*.js": {
       "runtime": "nodejs18.x"
@@ -16,6 +17,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-
+  ]
 }
