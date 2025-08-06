@@ -1,5 +1,6 @@
 {
-  "version": 2,
+  "version": 2
+}
   "buildCommand": "npm install && vite build",
   "outputDirectory": "client/dist",
   "installCommand": "npm install",
